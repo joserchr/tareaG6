@@ -23,15 +23,26 @@
   <h1>Cuadrado con bordes redondeados (Resultado)</h1>
 
 <?php
+ if (isset($_GET['lado']) && isset($_GET['esquina'])){
+  $lado = $_GET['lado'];
+  $esquina = $_GET['esquina'];
 
+  echo "<svg width=\"$lado\" height=\"$lado\">";
+  echo "<rect width=\"$lado\" height=\"$lado\" rx=\"$esquina\" ry=\"$esquina\" fill=\"blue\"/>";
+  echo "</svg>";
+
+ } else {
+  
 print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
-print " <br> Investigue de svg y rect en html para dibujar"
+print " <br> Investigue de svg y rect en html para dibujar";
+ }
+
 ?>
 
   <p><a href="controles-formularios-2-11-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Fabricio Montanari</p>
   </footer>
 </body>
 </html>
