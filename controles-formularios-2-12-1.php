@@ -30,7 +30,7 @@
   </form>
 
   <footer>
-    <p>Jose Ricardo Chinchilla Rojas</p>
+    <p>Escriba aquí su nombre</p>
   </footer>
 </body>
 </html>

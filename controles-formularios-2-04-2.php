@@ -24,14 +24,29 @@
 
 <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+if (isset($_GET['correo']) && isset($_GET['correo2']) && isset($_GET['recibir'])) {
+  $correo = $_GET['correo'];
+  $correo2 = $_GET['correo2'];
+  $recibir = $_GET['recibir'];
+
+  if($correo == $correo2){
+    echo "<p>Correo: $correo</p>";
+    echo "<p>Recibir correos: " . ($recibir == 1 ? "Si" : "No") . "</p>";
+  } else {
+    echo "<p class=\"aviso\">Las direcciones de correo no coinciden</p>";
+  }
+
+} else {
+  print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+}
+
 
 ?>
 
   <p><a href="controles-formularios-2-04-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Fabricio Montanari</p>
   </footer>
 </body>
 </html>

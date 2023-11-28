@@ -5,7 +5,7 @@
   <title>
     Gradiente en cuadrado (Formulario).
     Controles en formularios (2). Con formularios.
-    Jose Ricardo Chinchilla Rojas
+    Escriba aquí su nombre
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" title="Color">
@@ -40,7 +40,7 @@
   </form>
 
   <footer>
-    <p>Jose Ricardo Chinchilla Rojas</p>
+    <p>Escriba aquí su nombre</p>
   </footer>
 </body>
 </html>
