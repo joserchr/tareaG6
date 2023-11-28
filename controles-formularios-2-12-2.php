@@ -15,7 +15,7 @@ $formaRecibido = (isset($_GET['forma'])) ? $_GET['forma'] : "";
   <title>
     Círculo o cuadrado Cuadrado (Resultado).
     Controles en formularios (2). Con formularios.
-    Escriba aquí su nombre
+    Jose Ricardo Chinchilla Rojas
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" title="Color">
