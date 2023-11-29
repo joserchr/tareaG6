@@ -2,9 +2,11 @@
 /**
  * Controles en formularios (2) 2-2 - controles-formularios-2-02-2.php
  *
- * @author Escriba aquí su nombre
+ * @author Fabian Zuniga Aguero
  *
  */
+$edadRecibido = (isset($_GET['edad']))? $_GET['edad']:"";
+$pesoRecibido = (isset($_GET['peso']))? $_GET['peso']:"";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -24,14 +26,14 @@
 
 <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+echo $edadRecibido. " " .$pesoRecibido;
 
 ?>
 
   <p><a href="controles-formularios-2-02-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Fabian Zuniga</p>
   </footer>
 </body>
 </html>

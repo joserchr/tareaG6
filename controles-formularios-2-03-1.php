@@ -5,7 +5,7 @@
   <title>
     Datos personales 3 (Formulario).
     Controles en formularios (2). Con formularios.
-    Escriba aquí su nombre
+    Fabian Zuniga Aguero
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" title="Color">
@@ -37,7 +37,7 @@
   </form>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Fabian Zuniga Aguero</p>
   </footer>
 </body>
 </html>

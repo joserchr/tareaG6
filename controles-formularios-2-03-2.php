@@ -2,9 +2,13 @@
 /**
  * Controles en formularios (2) 3-2 - controles-formularios-2-03-2.php
  *
- * @author Escriba aquí su nombre
+ * @author Fabian Zuniga Aguero
  *
  */
+$sexoRecibido = (isset($_GET['genero']))? $_GET['genero']:"";
+$cineRecibido = (isset($_GET['cine']))? $_GET['cine']:"";
+$literaturaRecibido = (isset($_GET['literatura']))? $_GET['literatura']:"";
+$musicaRecibido = (isset($_GET['musica']))? $_GET['musica']:"";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -24,14 +28,17 @@
 
 <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+echo "Sexo: " . $sexoRecibido . "<br>";
+echo "Cine: " . ($cineRecibido ? "Sí" : "No") . "<br>";
+echo "Literatura: " . ($literaturaRecibido ? "Sí" : "No") . "<br>";
+echo "Música: " . ($musicaRecibido ? "Sí" : "No") . "<br>";
 
 ?>
 
   <p><a href="controles-formularios-2-03-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Fabian Zuniga Aguero</p>
   </footer>
 </body>
 </html>
