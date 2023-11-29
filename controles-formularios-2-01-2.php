@@ -2,9 +2,11 @@
 /**
  * Controles en formularios (2) 1-2 - controles-formularios-2-01-2.php
  *
- * @author Escriba aquí su nombre
+ * @author Kendal Calderón Marín
  *
  */
+$nombreRecibido = (isset($_GET['nombre']))? $_GET['nombre']:"";
+$apellidosRecibido = (isset($_GET['apellidos']))? $_GET['apellidos']:"";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -23,15 +25,14 @@
   <h1>Datos personales 1 (Resultado)</h1>
 
 <?php
-
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+echo $nombreRecibido." ".$apellidosRecibido;
 
 ?>
 
   <p><a href="controles-formularios-2-01-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
+    <p>Kendal Calderón</p>
   </footer>
 </body>
 </html>
