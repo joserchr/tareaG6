@@ -2,7 +2,6 @@
 /**
  * Controles en formularios (2) 12-2 - controles-formularios-2-12-2.php
  *
- * @author Escriba aquí su nombre
  *  
  * @author Jose Ricardo Chinchilla Rojas
  *
@@ -12,17 +11,22 @@ $formaRecibido = (isset($_GET['forma'])) ? $_GET['forma'] : "";
 ?>
 <!DOCTYPE html>
 <html lang="es">
-@@ -20,19 +22,50 @@
+<head>
+  <meta charset="utf-8">
+  <title>
+    Gradiente en cuadrado (Formulario).
+    Controles en formularios (2). Con formularios.
+    Escriba aquí su nombre
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" title="Color">
 </head>
 
 <body>
   <h1>Círculo o cuadrado (Resultado)</h1>
-
-  <h1>Círculo o cuadrado (Resultado)</h1>
 <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
-print " <br> Investigue de svg, rect y circle en html para dibujar"
+
 if($formaRecibido == "cuadrado"){
 ?>
   <svg
@@ -51,7 +55,6 @@ print " <br><br> Aqui esta su ".$formaRecibido;
   <p><a href="controles-formularios-2-12-1.php">Volver al formulario.</a></p>
 
   <footer>
-    <p>Escriba aquí su nombre</p>
     <p>Jose Ricardo Chinchilla Rojas</p>
   </footer>
   <script>
